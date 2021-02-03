@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@400;700&display=swap');
+
+*{
+  box-sizing: border-box;
+  margin:0;
+  padding:0;
+}
+body{
+  background-color: #e6eff6;
+}
+main{
+
+}
+.top{
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+width:50%;
+margin: 160px auto 0 auto;
+background-color: #ffffff;
+padding:20px;
+box-shadow: 3px 0px 10px 1px hsl(218, 22%, 67%);
+
+}
+
+h1{
+  color:hsl(179, 62%, 43%);
+  font-family: 'Karla', sans-serif;
+  margin-bottom: 30px;
+  font-size: 30px;
+  font-weight: 700;
+}
+
+h3{
+  color:hsl(71, 73%, 54%);
+  font-family: 'Karla', sans-serif;
+  margin-bottom: 15px;
+}
+div .text{
+  color:hsl(218, 22%, 67%);
+  width:95%;
+  margin-bottom: 10px;
+  padding: 0;
+}
+
+.left{
+  width:50%;
+border-bottom-left-radius: 10px ;
+  background-color: #2bb3b1;
+  padding: 30px;
+  box-shadow: -2px 3px 10px hsl(218, 22%, 67%);
+}
+section{
+  display: flex;
+  width:50%;
+  margin:auto;
+
+}
+.sub{
+  color: #e9ffff;
+  font-family: 'Karla', sans-serif;
+  padding: 10px;
+
+}
+span{
+  font-family: 'Karla', sans-serif;
+  font-size: 30px;
+  font-weight: 700;
+  color:#fffeff;
+  padding: 10px;
+  padding-right:3px;
+}
+.per{
+  font-family: 'Karla', sans-serif;
+  color:#69d9da;
+  font-size: 16px;
+  padding-left:0px;
+}
+p{
+  color:#dcffff;
+  font-size: 16px;
+  font-family: 'Karla', sans-serif;
+  padding: 10px;
+
+}
+
+.signup{
+  width:95%;
+  background-color: #bfdf32;
+  color:#dcffff;
+  margin: 20px auto;
+
+  padding: 10px;
+  font-family: 'Karla', sans-serif;
+  font-size: 16px;
+  text-align: center;
+  border-radius: 7px;
+}
+
+.right{
+  float:left;
+  width:50%;
+background-color: #4abebd;
+padding: 30px;
+border-bottom-right-radius: 10px ;
+box-shadow: 5px 3px 10px hsl(218, 22%, 67%);
+}
+.right h1 {
+  color: #e9ffff;
+  font-family: 'Karla', sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  padding-top:10px;
+}
+
+.right p{
+  color:#dcffff;
+  padding: 0;
+}
+
+@media (max-width:375px) {
+  .top,.left,.right{
+    width:100%;
+    float:none;
+  }
+  section{
+    display: block;
+    width:100%;
+  }
+  body{
+    margin:0 20px;
+  }
+}
